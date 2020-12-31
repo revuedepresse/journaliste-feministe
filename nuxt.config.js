@@ -18,7 +18,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'author', name: 'author', content: '@dev_obs' },
+      { hid: 'author', name: 'author', content: '@revue_2_presse' },
       { hid: 'og:type', name: 'og:type', content: 'website' },
       {
         hid: 'og:url',
@@ -37,11 +37,11 @@ export default {
         content: title
       },
       { name: 'twitter:card', content: 'summary_large_image' },
-      { hid: 'twitter:site', name: 'twitter:site', content: '@dev_obs' },
+      { hid: 'twitter:site', name: 'twitter:site', content: '@revue_2_presse' },
       {
         hid: 'twitter:creator',
         name: 'twitter:creator',
-        content: '@dev_obs'
+        content: '@revue_2_presse'
       },
       {
         hid: 'twitter:title',
@@ -88,7 +88,7 @@ export default {
       useWebmanifestExtension: false
     },
     meta: {
-      theme_color: '#42CFC9'
+      theme_color: '#8c52ff'
     }
   },
 

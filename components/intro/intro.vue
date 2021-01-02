@@ -12,6 +12,13 @@
           />
         </a>
       </div>
+      <div class="intro__description-container">
+        <p class="intro__description">Chaque jour, les posts les plus marquants émanants de journalistes féministes. Cette page est alimentée à partir d'une liste Twitter, Journaliste et féministe :
+          <a
+            class="intro__project"
+            href="https://twitter.com/i/lists/1094868073247637505">https://twitter.com/i/lists/1094868073247637505</a>
+        </p>
+      </div>
     </div>
   </div>
 </template>

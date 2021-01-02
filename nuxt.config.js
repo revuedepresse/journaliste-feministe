@@ -1,6 +1,10 @@
+const description =
+  "Chaque jour, les posts les plus marquants émanants de journalistes féministes. Cette page est alimentée à partir d'une liste Twitter, Journaliste et féministe : https://twitter.com/i/lists/1094868073247637505";
 const title = process.env.APP_TITLE;
 const url = process.env.APP_URL;
 const icon = '/icon.png';
+const banner =
+  'https://journaliste-feministe.revue-de-presse.org/journaliste-feministe-banner.png';
 
 export default {
   // Disable server-side rendering (https://go.nuxtjs.dev/ssr-mode)
@@ -18,6 +22,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'description', name: 'description', content: description },
       { hid: 'author', name: 'author', content: '@revue_2_presse' },
       { hid: 'og:type', name: 'og:type', content: 'website' },
       {
@@ -30,6 +35,16 @@ export default {
         hid: 'og:title',
         property: 'og:title',
         content: title
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: description
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: banner
       },
       {
         hid: 'og:site_name',
@@ -47,6 +62,16 @@ export default {
         hid: 'twitter:title',
         name: 'twitter:title',
         content: title
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content: description
+      },
+      {
+        hid: 'twitter:image',
+        name: 'twitter:image',
+        content: banner
       }
     ],
     noscript: [
